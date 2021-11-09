@@ -1,0 +1,198 @@
+html {
+	height: 100%;
+	background-color: #fcfcfc;
+	padding-left: 10em;
+	padding-right: 10em;
+	padding-top: 0px;
+}
+
+body {
+	padding-top: 1px;
+	padding-bottom: 1px;
+	border-style: solid;
+	border-width: 0px 2px 0px 2px;
+}
+
+body#klein {
+	height: 100%;
+}
+
+p { font-size: 16px; text-align: justify; font-family: sans-serif; color: #000066;}
+h1 { font-size: 49px; font-family: Raleway; text-align: left; padding-left: 4em; color: #000066; width: auto;}
+h3 { font-size: 16px; padding-right: 1.1em;}
+li li { font-size: 1em; }
+
+#homepage { color: red; text-decoration: none;}
+
+#ueberschrift {
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+}
+
+#banner {
+	width: 100%;
+}
+
+.bild {
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  height: 45%;
+  display: block;
+  text-align: center;
+}
+
+ul#menu {
+	margin-top: 40px;
+	border-style: solid;
+	border-width: 2px 0px;
+	text-align: center;
+	background-color: #ccffcc;
+}
+
+ul#menu li {
+	padding-left: 0em;
+	padding-right: 1.1em;
+	font-size: 20px;
+	display:inline;
+}
+
+ul#menu li a {
+	color: #e68a00;
+}
+
+ul#unter_menu {
+	margin-top: -11px;
+	border-style: solid;
+	border-width: 2px 0px;
+	text-align: center;
+	background-color: #aaff50;
+}
+
+ul#unter_menu li {
+	padding-left: 0em;
+	padding-right: 1.1em;
+	font-size: 19px;
+	display:inline;
+}
+
+ul#unter_menu li a {
+	color: #e68a10
+}
+
+
+li a:hover {
+	background-color: #9de84d;
+	color: white;
+}
+
+#oberer_reiter {
+	color: black;
+}
+
+#seiten_reiter {
+	border-width: thin;
+	border-style: solid;
+	background-color: yellow;
+	padding-right: 1em;
+	float: left;
+	font-size: 1.5em;
+}
+
+#seiten_reiter a {
+	text-decoration: none;
+}
+
+#mailo {
+	text-align: right;
+	color: #ADADAB;
+}
+
+#mail {
+	text-decoration: none;
+	padding-right: 1em;
+}
+
+
+#sprechzeiten {
+	width: 97%;
+	height: 35%;
+	padding: 0px;
+	font-size: 1.3em;
+	margin-left: 1em;
+	margin-bottom: 1em;
+	border-collapse: collapse;
+}
+
+#sprechzeiten th {
+	background-color: #dca65e;
+}
+
+#sprechzeiten tr:nth-child(even) td {
+	background-color: #f5b765;
+	color: #000;
+}
+
+#sprechzeiten tr:nth-child(odd) td {
+	background-color: white;
+	color: #000;
+}
+
+#sprechzeiten th, td {
+	text-align: center;
+	padding-right: 0em;
+}
+
+#praxisurlaub {
+	width: 97%;
+	height: 17%;
+	padding: 0px;
+	font-size: 1.3em;
+	margin-left: 1em;
+	margin-bottom: 1em;
+	border-collapse: collapse;
+}
+
+#praxisurlaub th {
+	background-color: #dca65e;
+}
+
+#praxisurlaub tr:nth-child(even) td {
+	background-color: #f5b765;
+	color: #000;
+}
+
+#praxisurlaub tr:nth-child(odd) td {
+	background-color: white;
+	color: #000;
+}
+
+#praxisurlaub th, td {
+	text-align: center;
+	padding-right: 0em;
+	height: 50px;
+}
+
+#website_text {
+	border-style: solid;
+	border-width: 2px 0px 0px 0px;
+	text-align: center;
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+#team_text {
+	margin-left: 30em;
+}
+
+#team_text p {
+	display: block;
+	margin: 0 auto;
+}
+
+#terminliste {
+	text-align: left;
+	color: #000066;
+}
+
